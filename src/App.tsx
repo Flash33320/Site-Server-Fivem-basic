@@ -9,6 +9,7 @@ import Register from "./pages/Register";
 import Rules from "./pages/Rules";
 import ForgotPassword from "./pages/ForgotPassword";
 import NotFound from "./pages/NotFound";
+import Maintenance from "./pages/Maintenance";
 
 const queryClient = new QueryClient();
 
@@ -21,7 +22,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+          <Route path="/register" element={<Maintenance />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/rules" element={<Rules />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
