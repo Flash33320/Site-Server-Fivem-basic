@@ -47,9 +47,3 @@ Assure-toi d'avoir les éléments suivants installés sur ta machine :
 *   [Node.js](https://nodejs.org/en/) (version 18 ou supérieure recommandée)
 *   [npm](https://www.npmjs.com/) (généralement inclus avec Node.js)
 *   Un serveur FiveM opérationnel (pour tester la connexion).
-
-## 📦 Installation
-
-Suis ces étapes pour mettre en place le site localement.
-
-### 1. Clonage du Dépôt
